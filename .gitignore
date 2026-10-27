@@ -1,0 +1,12 @@
+# Local dependency resolution and Julia diagnostics.
+Manifest.toml
+Manifest-v*.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Local environments, editor metadata and temporary files.
+.julia/
+.DS_Store
+*.log
+*~
