@@ -1,0 +1,17 @@
+name = "JWarp"
+uuid = "625d1ebc-0db7-416e-9b31-61c12f81cb72"
+authors = ["OpenAI (initial proof-of-concept)"]
+version = "0.1.0"
+
+[deps]
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
+[compat]
+julia = "1.10"
+KernelAbstractions = "0.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
